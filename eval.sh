@@ -4,8 +4,16 @@ echo "Name of the file"
 
 read name
 
-python $name.py < $name.in > $name.out
-diff $name.out $name.sup > resault.txt
+if [ "${name: -1}" = "y" ]; then
+	pero=${name:0:(-3)}
+	python $pero.py < $pero.in > $pero.out
+	diff $pero.out $pero.sup > resault.txt
+else
+	pero=${name:0:(-4)}
+	g++ -DEVAL -O2 -o $pero $pero.cpp
+	./$pero < $pero.in > $pero.out
+	diff $pero.out $pero.sup > resault.txt
+fi
 
 var=$(cat resault.txt)
 if [ "$var" = "" ]; then
