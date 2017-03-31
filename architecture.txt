@@ -1,0 +1,21 @@
+Eval directory with all files
+
+Eval_stuff
+	- zad1
+		- eval.sh
+		- config.txt
+		- zad1.sup
+		- zad1.in
+		- users
+			- user_001
+				- zad1.cpp
+				- #zad1.out.1
+				- #zad1.out.2
+			- user_002
+			- user_003
+			- user_004
+		- scores
+			- user_001.txt
+			- user_002.txt
+			- user_003.txt
+			- user_004.txt
