@@ -5,6 +5,7 @@ echo "Name of the file"
 read name
 
 max=`cat config.txt`
+echo $max
 
 if [ "${name: -1}" = "p" ]; then
 	pero=${name:0:(-4)}

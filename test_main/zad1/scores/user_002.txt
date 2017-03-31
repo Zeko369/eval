@@ -1,0 +1,6 @@
+Scores for zad1
+1c1 < 16 --- > 14
+Correct
+Correct
+Correct
+Correct

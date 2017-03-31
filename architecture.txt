@@ -5,7 +5,13 @@ Eval_stuff
 		- eval.sh
 		- config.txt
 		- zad1.sup
+			- zad1.sup.1
+			- zad1.sup.2
+			- zad1.sup.3
 		- zad1.in
+			- zad1.in.1
+			- zad1.in.2
+			- zad1.in.3
 		- users
 			- user_001
 				- zad1.cpp
