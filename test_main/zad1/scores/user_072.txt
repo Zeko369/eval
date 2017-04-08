@@ -1,7 +1,7 @@
 Scores for zad1
-1c1 < 16 --- > 14
 Correct
 Correct
 Correct
 Correct
-4
+Correct
+5
